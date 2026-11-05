@@ -1,0 +1,238 @@
+[
+  {
+    "id": "2415665-kafe-panda",
+    "name": "Panda",
+    "location": "Mahallah Siddiq, Gombak",
+    "openHours": "7:00 am - 7:00 am",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2415665-pa-1",
+        "name": "Nasi Ayam Hainan",
+        "description": "Smoke chicken with sambal, soup, cucumber and rice",
+        "price": 7.0,
+        "category": "Rice",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "2415665-pa-2",
+        "name": "Nasi Lemak Daging Rendang",
+        "description": "Fragrant pandan rice with daging rendang, nuts, cucumber and quarter of egg",
+        "price": 6.0,
+        "category": "Rice",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "2415665-pa-3",
+        "name": "Nasi Kandar",
+        "description": "steamed rice served with fried chicken, egg and mix of variety of curry",
+        "price": 8.0,
+        "category": "Bakery",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "2415665-pa-4",
+        "name": "Mee Tarik Chinese",
+        "description": "Spicy fried yellow noodles with 5 slide of meat and soup with sauce",
+        "price": 7.5,
+        "category": "Noodles",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "2415665-pa-5",
+        "name": "Char kuey Tiaw",
+        "description": "Flat rice noodles stir-fried with 3 piece of prawn and clam",
+        "price": 7.0,
+        "category": "Noodles",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "2415665-pa-6",
+        "name": "Teh Tarik",
+        "description": "Rich milk tea made from strong black tea",
+        "price": 2.50,
+        "category": "Drinks",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "2415665-pa-7",
+        "name": "ExtraJoss Anggur",
+        "description": "Grape-flavored energy drink powder with milk",
+        "price": 3.5,
+        "category": "Drinks",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "2415665-pa-8",
+        "name": "Jus Tembikai",
+        "description": "Freshly blended watermelon juice",
+        "price": 4.0,
+        "category": "Drinks",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "2413411-the-view",
+    "name": "The View",
+    "location": "Taman Dagang, Ampang, Selangor",
+    "openHours": "7:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2413411-my-1",
+        "name": "Nasi Ayam Gepuk",
+        "description": "Crispy Fried Chicken with rice, nut sauce and spicy sambal",
+        "price": 7.5,
+        "category": "Rice",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "2413411-my-2",
+        "name": "Nasi Goreng Kampung",
+        "description": "Traditional village-style fried chicken rice with anchovies and chillies",
+        "price": 6.5,
+        "category": "Rice",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "2413411-my-3",
+        "name": "Shawarma Ayam",
+        "description": "Grilled chicken wrap with fresh veggies and garlic sauce.",
+        "price": 6.0,
+        "category": "Fast Food",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "2413411-my-4",
+        "name": "Burger Ayam Special",
+        "description": "Chicken burger with egg, cheese, and fresh lettuce",
+        "price": 5.5,
+        "category": "Fast Food",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "2413411-my-5",
+        "name": "Teh Ais",
+        "description": "Sweet, creamy Malaysian iced milk tea.",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": false,
+        "popular": true
+      },
+      {
+        "id": "2413411-my-6",
+        "name": "Sirap Limau",
+        "description": "Refreshing rose syrup with fresh lime juice",
+        "price": 2.3,
+        "category": "Drinks",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "2413411-my-7",
+        "name": "Milo Dinosaur",
+        "description": "Milo drink topped with a heavy mound of Milo powder",
+        "price": 3.5,
+        "category": "Drinks",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "2413411-my-8",
+        "name": "Mineral Water",
+        "description": "Bottled drinking water 500ml",
+        "price": 1.5,
+        "category": "Drinks",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "2417645-leblanc",
+    "name": "Leblanc",
+    "location": "Mahallah Zubair, Block C",
+    "openHours": "7:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2417645-m1",
+        "name": "Curry Rice",
+        "description": "Hot yet mild",
+        "price": 7.5,
+        "category": "Rice",
+        "popular": true
+      },
+      {
+        "id": "2417645-m2",
+        "name": "Spaghetti",
+        "description": "Served with 4 meatballs and parmesan cheese",
+        "price": 6.0,
+        "category": "Noodles",
+        "popular": false
+      },
+      {
+        "id": "2417645-m3",
+        "name": "Coffee",
+        "description": "Famous Coffee in town!",
+        "price": 2.5,
+        "category": "Drinks",
+        "popular": true
+      },
+      {
+        "id": "2417645-m4",
+        "name": "Nasi Goreng Leblanc",
+        "description": "Signature fried rice with fried egg",
+        "price": 8.0,
+        "category": "Rice",
+        "popular": true
+      },
+      {
+        "id": "2417645-m5",
+        "name": "Ramen",
+        "description": "Savory broth served with boiled egg and chashu",
+        "price": 9.5,
+        "category": "Noodles",
+        "popular": false
+      },
+      {
+        "id": "2417645-m6",
+        "name": "Iced Lemon Tea",
+        "description": "Refreshing brewed tea with fresh lemon",
+        "price": 3.0,
+        "category": "Drinks",
+        "popular": false
+      },
+      {
+        "id": "2417645-m7",
+        "name": "Chocolate Cake",
+        "description": "Rich dark chocolate slice",
+        "price": 5.0,
+        "category": "Desserts",
+        "popular": true
+      },
+      {
+        "id": "2417645-m8",
+        "name": "Matcha Latte",
+        "description": "Creamy Japanese green tea latte",
+        "price": 4.5,
+        "category": "Drinks",
+        "popular": false
+      }
+    ]
+  }
+  
+]

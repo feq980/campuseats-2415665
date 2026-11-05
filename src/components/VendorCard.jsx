@@ -1,5 +1,5 @@
-function VendorCard({ vendor, isSelected, onSelect }) {
-  return (
+function VendorCard({vendor, isSelected, onSelect}) {
+  return(
     <button
       type="button"
       className={isSelected ? 'card vendor-card selected' : 'card vendor-card'}
@@ -11,7 +11,7 @@ function VendorCard({ vendor, isSelected, onSelect }) {
         <p className="muted">{vendor.location}</p>
         <p className="muted">Open: {vendor.openHours}</p>
         <span className={vendor.isOpen ? 'status open' : 'status closed'}>
-          {vendor.isOpen ? 'Open now' : 'Closed'}
+          {vendor.isOpen ? 'Open Now' : 'Closed'}
         </span>
       </div>
     </button>
