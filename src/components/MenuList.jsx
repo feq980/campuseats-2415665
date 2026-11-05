@@ -1,13 +1,16 @@
-// src/components/MenuList.jsx
 import { useState } from 'react'
+import { useCart } from '../hooks/useCart.js'
 
-function MenuList({ items = [], onAdd }) {
+function MenuList({ items = [] }) {
+  const { addToCart } = useCart()
   const [showPopularOnly, setShowPopularOnly] = useState(false)
 
   // Filter items if showPopularOnly is active
   const displayedItems = showPopularOnly
     ? items.filter((item) => item.popular)
     : items
+
+  if (items.length === 0) return <p className="muted">No items on this menu yet.</p>
 
   return (
     <div>
@@ -54,7 +57,7 @@ function MenuList({ items = [], onAdd }) {
             </div>
             <p>{item.description}</p>
             <p><strong>RM {item.price.toFixed(2)}</strong></p>
-            <button className="btn" onClick={() => onAdd(item)}>
+            <button className="btn" onClick={() => addToCart(item)}>
               Add to cart
             </button>
           </div>
